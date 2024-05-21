@@ -11,7 +11,7 @@ import ToastPlugin from '@/plugins/toastPlugin'
 import setupVeeValidateI18n from '@/utils/vee-validate-rules'
 export const device = createDeviceDetector()
 const app = createApp(App)
-
+ 
 app.use(router)
 app.use(store)
 app.use(device)
